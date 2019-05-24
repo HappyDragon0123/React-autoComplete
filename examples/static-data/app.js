@@ -2,7 +2,7 @@ import React from 'react'
 import DOM from 'react-dom'
 import { getStates, matchStateToTerm, sortStates } from '../../lib/utils'
 import Autocomplete from '../../lib/index'
-
+//App Component
 class App extends React.Component {
   state = { value: 'Ma' }
   render() {
