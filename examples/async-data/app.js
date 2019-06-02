@@ -33,7 +33,7 @@ class App extends React.Component {
             // set the menu to only the selected item
             this.setState({ value, unitedStates: [ item ] })
             // or you could reset it to a default list again
-            // this.setState({ unitedStates: getStates() })
+            // this.setState({ unitedStates: getStates() }) 
           }}
           onChange={(event, value) => {
             this.setState({ value })

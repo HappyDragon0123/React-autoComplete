@@ -12,7 +12,7 @@ class App extends React.Component {
       unitedStates: [],
       loading: false
     }
-    this.requestTimer = null
+    this.requestTimer = null 
   }
 
   render() {
