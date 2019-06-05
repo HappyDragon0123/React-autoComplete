@@ -14,7 +14,7 @@ class App extends React.Component {
     }
     this.requestTimer = null 
   }
-
+//-----//
   render() {
     return (
       <div>
