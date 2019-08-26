@@ -31,7 +31,7 @@ class App extends Component {
           hide/show the menu based on <code>props.open</code>. Pair this with <code>props.onMenuVisibilityChange</code>
            - which is invoked each time the internal visibility state changes - for full control
           over the menu's visibility.
-        </p> 
+        </p>
         <label htmlFor="states">Choose a US state</label>
         <Autocomplete
           value={state.value}
